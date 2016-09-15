@@ -380,7 +380,7 @@ public class mainFrame extends javax.swing.JFrame {
             
                 //Creates a array of strings under "command" which contains all these
                 
-                String[] command = {"CMD", "/C", "livestreamer",  StreamURL +StreamLink , stQuality};
+                String[] command = {"CMD", "/C", "livestreamer --http-header Client-ID=jzkbprff40iqj646a697cyrvl0zt2m6",  StreamURL +StreamLink , stQuality};
                 //Creates a new processbuilder called probuilder and runs all the commands in it
                 ProcessBuilder probuilder = new ProcessBuilder( command );
                 //You can set up your work directory
